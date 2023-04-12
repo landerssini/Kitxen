@@ -12,7 +12,7 @@ Kitxen is a web platform that allows users to access a wide variety of culinary 
 
 
 ## Deployment
-
+[![CodeFactor](https://www.codefactor.io/repository/github/landerssini/kitxen/badge)](https://www.codefactor.io/repository/github/landerssini/kitxen)
 To deploy this project visit the page 
 
 
