@@ -38,6 +38,7 @@ export async function getRecipesInfoRandom(quantity, tags = '') {
       dataTag = 'random recipes';
     } else if (tags === 'random') {
       dataTag = 'random recipes';
+      fetchTags = '';
     } else {
       dataTag = tags;
     }
