@@ -18,7 +18,7 @@ Kitxen is a web platform that allows users to access a wide variety of culinary 
 ![App Screenshot](/src/assets/Images/screenshot.png)
 
 
-## Badges
+## Dependencies
 
 [![react](https://img.shields.io/badge/react-18.2.0-blue.svg)](https://www.npmjs.com/package/react)
 [![react-dom](https://img.shields.io/badge/react--dom-18.2.0-blue.svg)](https://www.npmjs.com/package/react-dom)
