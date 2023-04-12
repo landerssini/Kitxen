@@ -1,5 +1,5 @@
 
-![Logo](kitxen/src/assets/Images/KitxenLogo.png)
+![Logo](/src/assets/Images/KitxenLogo.png)
 
 
 ## 🚀 About Me
@@ -15,7 +15,7 @@ Kitxen is a web platform that allows users to access a wide variety of culinary 
 
 ## Screenshots
 
-![App Screenshot](kitxen/src/assets/Images/screenshot.png)
+![App Screenshot](/src/assets/Images/screenshot.png)
 
 
 ## Badges
