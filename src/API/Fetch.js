@@ -1,7 +1,7 @@
-var myHeaders = new Headers();
+const myHeaders = new Headers();
 myHeaders.append("x-api-key",import.meta.env.VITE_REACT_APP_MY_API_KEY);
 
-var requestOptions = {
+const requestOptions = {
     method: 'GET',
     headers: myHeaders,
     redirect: 'follow'
@@ -38,7 +38,6 @@ export async function getRecipesInfoRandom(quantity, tags = '') {
       dataTag = 'random recipes';
     } else if (tags === 'random') {
       dataTag = 'random recipes';
-      fetchTags = '';
     } else {
       dataTag = tags;
     }

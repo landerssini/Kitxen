@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { chooseRandomDiet, getRecipesInfoRandom } from '../API/Fetch';
+import { getRecipesInfoRandom } from '../API/Fetch';
 import Carousel from './Carousel';
 import { RecipeCard } from './RecipeCard';
 import { Icon } from './Icon';

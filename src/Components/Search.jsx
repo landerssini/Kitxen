@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { SearchResults } from './SearchResults';
-import { unstable_HistoryRouter, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 function SearchBar() {
   const [query, setQuery] = useState("");

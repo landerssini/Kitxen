@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import TimerIcon from "../assets/Icons/Timer.png"
 
 export const Timer = ({timer}) => {

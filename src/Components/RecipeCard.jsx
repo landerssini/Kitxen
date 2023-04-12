@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { ScoreDisplay } from './ScoreDisplay'
 import { Servings } from './Servings'
 import { Timer } from './Timer'
 import { Icons } from './Icons'
 import { Link } from 'react-router-dom'
-import { Recipe } from '../Pages/Recipe'
 import errorpic from '../assets/Images/ErrorPic.png'
 
 
