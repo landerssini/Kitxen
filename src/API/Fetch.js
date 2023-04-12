@@ -5,17 +5,12 @@ var requestOptions = {
     method: 'GET',
     headers: myHeaders,
     redirect: 'follow'
-};
-function chooseRandomOffset() {
-    return Math.floor(Math.random() * 871);
 }
-
 export function chooseRandomDiet() {
     const diets = ["vegan", "gluten free", "vegetarian"];
     const randomIndex = Math.floor(Math.random() * diets.length);
     return diets[randomIndex];
 }
-
 export async function getRecipesInfo(recipeId) {
         const response = await fetch(`https://api.spoonacular.com/recipes/${recipeId}/information`, requestOptions)
         const data = await response.json()
