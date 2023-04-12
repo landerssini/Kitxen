@@ -11,15 +11,15 @@ export const Icon = (icon) => {
   switch (icon.icon) {
     case "vegan":
       iconShow = vegan;
-      text = "Vegano";
+      text = "Vegan";
       break;
     case "vegetarian":
       iconShow = vegetarian;
-      text = "Vegetariano";
+      text = "Vegetarian";
       break;
     case "points":
       iconShow = points;
-      text = "Puntos";
+      text = "Points";
       break;
     case "gluten free":
       iconShow = glutenfree;
