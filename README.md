@@ -15,9 +15,9 @@ Kitxen is a web platform that allows users to access a wide variety of culinary 
 
 To deploy this project visit the page 
 
-```bash
+
   https://kitxen.netlify.app
-```
+
 
 
 
