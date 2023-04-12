@@ -11,6 +11,15 @@ First of all, I want to say that this is my first “big” project that I have 
 Kitxen is a web platform that allows users to access a wide variety of culinary recipes from around the world, using the Spoonacular API to obtain detailed information about ingredients, preparation, and nutrition. The page is designed to be intuitive and user-friendly, making it an ideal tool for both novice and experienced cooks. 
 
 
+## Deployment
+
+To deploy this project visit the page 
+
+```bash
+  https://kitxen.netlify.app
+```
+
+
 
 
 ## Screenshots
