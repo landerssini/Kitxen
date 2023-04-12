@@ -14,19 +14,16 @@ export function chooseRandomDiet() {
 export async function getRecipesInfo(recipeId) {
         const response = await fetch(`https://api.spoonacular.com/recipes/${recipeId}/information`, requestOptions)
         const data = await response.json()
-        console.log(data)
     return data
 }
 export async function getRecipesInfoByIngredient(ingredient) {
         const response = await fetch(`https://api.spoonacular.com/recipes/findByIngredients?ingredients=${ingredient}/information?includeNutrition=false`, requestOptions)
         const data = await response.json()
-        console.log(data)
     return data
 }
 export async function getIngredientsInfo(ingredientId) {
     const response = await fetch(`https://api.spoonacular.com/food/ingredients/${ingredientId}/information`, requestOptions)
     const data = await response.json()
-    console.log(data)
     return data
 }
 export async function getRecipesInfoRandom(quantity, tags = '') {
@@ -45,21 +42,17 @@ export async function getRecipesInfoRandom(quantity, tags = '') {
   
     const response = await fetch(`https://api.spoonacular.com/recipes/random?number=${quantity}&tags=${fetchTags}`, requestOptions);
     const data = await response.json();
-  
     data.tag = dataTag;
-  
     return data;
   }
   export async function getQueryResultsRecipes(query) {
     const response = await fetch(`https://api.spoonacular.com/recipes/complexSearch?query=${query}`, requestOptions)
     const data = await response.json()
-    console.log(data)
     return data
 }
   export async function getQueryResultsIngredients(query) {
     const response = await fetch(`https://api.spoonacular.com/food/ingredients/search?query=${query}`, requestOptions)
     const data = await response.json()
-    console.log(data)
     return data
 }
 
